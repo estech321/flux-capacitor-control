@@ -15,6 +15,9 @@
 // 3 = Slow Blinking
 // 4 = Rapid Blinking
 // 5 = Fully Off
+//
+// CIRCUIT WIRING:
+// Pin 0 > 2.2K Ohm Resistor > Base of 2N2222A NPN transistor > COLLECTOR to christmas lights/flux capacitor > 220 Ohm resistor > +5V, EMITTER to ground. Pin 2 > Pushbutton > Ground.
 
 const int ledPin = 0;      // PWM output to 2N2222A transistor base
 const int buttonPin = 2;   // Pushbutton to GND
